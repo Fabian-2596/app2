@@ -1,0 +1,46 @@
+body {
+    background-color: #818181;
+    margin-top: 50px;
+    font-family: 'Lato';
+}
+
+.item {
+    background-color: rgb(156, 0, 0);
+    padding: 15px;
+    margin-bottom: 15px;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 1em rgb(117, 0, 0);
+    transition: all .2s ease-in-out;
+}
+
+.item:hover {
+    box-shadow: 0 0 1em rgb(255, 0, 0);
+}
+
+.item.completed {
+    text-decoration: line-through;
+}
+
+.toggles {
+    color: black;
+}
+
+.name {
+    padding-top: 3px;
+}
+
+.remove {
+    padding-left: 0;
+}
+
+button:focus {
+    border: 1px solid #333;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    text-align: left;
+    font-size: 15dp;
+}
